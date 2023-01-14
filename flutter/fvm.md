@@ -1,6 +1,8 @@
 ## Configuração do fvm
  1. Criar o projeto
-`flutter create --platforms android --org br.com.diasesilva --project-name imagem_testes ./imagem_testes`
+```sh
+flutter create --platforms android --org br.com.diasesilva --project-name imagem_testes ./imagem_testes
+```
 
 ### Lista todas as versões do flutter disponivel
 `fvm releases`
