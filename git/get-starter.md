@@ -4,6 +4,7 @@
 git init
 ``` 
 inicializa o repositorio 
+
 Cria uma branch default, ela só aparece apos o git commit, quando se cria uma nova branch duplica-se a branch corrente
 1. Configuração remota do repositorio
 git remote add origin [https://github.com/wscsilva/manual.git]
