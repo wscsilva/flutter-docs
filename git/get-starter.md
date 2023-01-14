@@ -1,3 +1,4 @@
+# Comandos do GIT
 # Git inicialização
 git init, inicializa o repositorio
 Cria se uma branch default,ela só aparece apos o git commit, quando se cria uma nova branch duplica-se a branch corrente
