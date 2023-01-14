@@ -1,11 +1,11 @@
 ## Criando atalhos para o GIT
 
-## Configurar para abrir no VsCode
+### Configurar para abrir no VsCode
 ```sh 
 git config --global core.editor code
 git config --global --edit
 ```
-## Abrir a configuração no VsCode
+### Abrir a configuração no VsCode
 ```sh
 [core]
 	editor = code --wait 
