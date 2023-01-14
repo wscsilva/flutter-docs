@@ -35,4 +35,4 @@ https://fvm.app/docs/getting_started/configuration
 }
 ```
 
-obs.: dentro do diretorio .fvm do projeto tem um arquivo fvm_config.json que aponta para o flutter
+> Observação: dentro do diretorio .fvm do projeto tem um arquivo `fvm_config.json` que aponta para o flutter
