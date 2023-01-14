@@ -10,7 +10,7 @@ git remote add origin [https://github.com/wscsilva/manual.git]
 ### Remover repositorio remoto
 `git remote remove origin`
 ### Principais comando GIT
-``git status``
+```git status```
 ### Verifica os logs do commit
 git log
 ### Verifica as branchs local
