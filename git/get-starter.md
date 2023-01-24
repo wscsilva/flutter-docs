@@ -17,7 +17,8 @@ git remote add origin https://github.com/wscsilva/manual.git
 `git branch`
 ### Alterna entre branchs
 `git checkout main`
- caso não tenha commit na branch para mudar de branch usar o git checkout -b nome_branch
+ caso não tenha commit na branch para mudar de branch usar 
+ `git checkout -b nome_branch`
 ### Criar um branch
 `git branch -M name_branch`
 ###Verificar a branch atual
