@@ -6,6 +6,15 @@
     final teste = orders.map((e) => e.toMap()).toList();
     log('message', error: json.encode(teste));
   }
+
+  String convertOrderToJson(List<OrderModel> orders) {
+	// Convert list object to list of Map
+    final orderMap = orders.map((e) => e.toMap()).toList();
+	// Convert Map to String Json
+    final orderStringJson = json.encode(orderMap);
+    return orderStringJson;
+  }
+}  
 ```
 
 #### Map <String, Object>
