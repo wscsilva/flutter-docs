@@ -1,4 +1,13 @@
 ## SERIALIZATIONS
+
+### Convertendo um List<OrderModel> p/ uma string JSON
+```dart
+  convertOrderToJson(List<OrderModel> orders) {
+    final teste = orders.map((e) => e.toMap()).toList();
+    log('message', error: json.encode(teste));
+  }
+```
+
 #### Map <String, Object>
 ```dart
     final js = {
