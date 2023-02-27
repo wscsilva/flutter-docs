@@ -1,4 +1,18 @@
-## *__<p align = "center">Comandos do GIT</p>__*
+### *__<p align = "center">Comandos do GIT</p>__*
+
+#### Criando uma nova branch no repositorio app_sapao
+
+1. Copiar o diretorio da versão que deseja clonar
+2. Apagar o diretorio .git
+3. Inicialiar o Git no diretorio 
+``` git init ```
+4. Alternar para nova branch
+``` git checkout -b v1.0.5 ```
+5. Commit na nova branch
+``` git c "new version of the v5_prd" ```
+6. Enviar as alterações para o Git
+```  git push origin v1.0.5 ```
+
 
 ### **Inizilizar o repositório**
 ```sh

@@ -16,7 +16,17 @@
   }
 }  
 ```
-
+#### Convertendo um String Json para um objeto OrderModel
+```
+  void getOrderLocalStorage() async {
+    final orderMap =
+        json.decode(await _localStorage.read(Constants.ORDERS_KEY));
+    final orderModel =
+        orderMap.map<OrderModel>((e) => OrderModel.fromMap(e)).toList();
+    _ordersLocalStorage.assignAll(orderModel);
+    log('', error: orderModel);
+  }
+```
 #### Map <String, Object>
 ```dart
     final js = {
